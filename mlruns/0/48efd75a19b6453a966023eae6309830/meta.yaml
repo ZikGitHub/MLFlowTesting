@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/AIML/BappyML/MLFlowDagsHub/MLFlowTesting/MLFlow.Test/mlruns/0/48efd75a19b6453a966023eae6309830/artifacts
+end_time: 1738133672538
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 48efd75a19b6453a966023eae6309830
+run_name: loud-rook-861
+run_uuid: 48efd75a19b6453a966023eae6309830
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738133667510
+status: 3
+tags: []
+user_id: zisha

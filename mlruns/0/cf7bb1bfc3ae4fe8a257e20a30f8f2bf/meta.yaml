@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/AIML/BappyML/MLFlowDagsHub/MLFlowTesting/MLFlow.Test/mlruns/0/cf7bb1bfc3ae4fe8a257e20a30f8f2bf/artifacts
+end_time: 1738140602354
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf7bb1bfc3ae4fe8a257e20a30f8f2bf
+run_name: carefree-ray-553
+run_uuid: cf7bb1bfc3ae4fe8a257e20a30f8f2bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738140598638
+status: 3
+tags: []
+user_id: zisha

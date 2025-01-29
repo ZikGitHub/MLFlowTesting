@@ -1,0 +1,15 @@
+artifact_uri: file:///E:/AIML/BappyML/MLFlowDagsHub/MLFlowTesting/MLFlow.Test/mlruns/0/c05f89c39c124ca2aba18f699d6b6059/artifacts
+end_time: 1738133978588
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c05f89c39c124ca2aba18f699d6b6059
+run_name: upbeat-loon-556
+run_uuid: c05f89c39c124ca2aba18f699d6b6059
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738133974941
+status: 3
+tags: []
+user_id: zisha
