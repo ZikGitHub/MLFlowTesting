@@ -11,13 +11,23 @@ from urllib.parse import urlparse
 import mlflow
 from mlflow.models.signature import infer_signature
 import mlflow.sklearn
+import dagshub
 
 import logging
 
 logging.basicConfig(level=logging.WARN)
 logger = logging.getLogger(__name__)
 
+# Initialize Dagshub
+dagshub.init(repo_owner='zikgithub',
+             repo_name='MLFlowTesting',
+             mlflow=True)
 
+with mlflow.start_run():
+  mlflow.log_param('parameter name', 'value')
+  mlflow.log_metric('metric name', 1)
+
+# Define the model evaluation function
 def eval_metrics(actual, pred):
     rmse = np.sqrt(mean_squared_error(actual, pred))
     mae = mean_absolute_error(actual, pred)
